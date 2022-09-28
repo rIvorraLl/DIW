@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+}
+.fondo {
+    background-color: #fce13d;
+    width: 80%;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+#lorenIpsum {
+    text-align: center;
+}
+#restaurant {
+    text-align: center;
+}
