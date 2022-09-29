@@ -1,0 +1,140 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font: Verdana;
+  font-size: 13px;
+}
+
+body {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header {
+  display: flex;
+  background-color: rgb(7, 2, 58);
+}
+
+.headerImg > img {
+  width: 200px;
+  height: 150px;
+}
+
+.mainTitle {
+  margin-left: 15px;
+  width: 1000px;
+  height: 150px;
+}
+
+.mainTitle > h1 {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+}
+
+.mainTitle > p {
+  margin-left: 45px;
+  text-align: center;
+  color: white;
+}
+
+.mosaic {
+  height: 100px;
+  background: url("/assets/pattern.jpg");
+  background-repeat: repeat;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  float: left;
+  margin-left: 2px;
+  background-color: rgb(184, 76, 206);
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.dot1 {
+  border: none;
+  border-top: 3px dotted rgb(0, 0, 0);
+  margin: 0;
+}
+
+.centerImg {
+  width: 100%;
+}
+
+.beforeTable {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: center;
+}
+
+.firstRow {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid black;
+  background-color: rgb(177, 94, 202);
+}
+
+.ftr,
+.fth {
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #4e4e4e;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+.logosContainer {
+  display: flex;
+}
+img.logos {
+  border-top: 3px dotted;
+  border-left: 1px solid;
+  border-bottom: 3px dotted;
+  border-right: 1px solid;
+  width: 24.9%;
+  height: 24.9%;
+}
+
+footer {
+  background-color: rgb(7, 2, 58);
+  color: white;
+  padding: 10px;
+}
+
+.lastItem {
+  text-align: end;
+}
